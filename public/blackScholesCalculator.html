@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shiraj Dawadi</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/images/avatar_new.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="A little bit about my bizzare adventures"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/avatar_new.jpg" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- tab -->
+    <!-- <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab 1</button>
+      <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
+    </div>
+    <div id="Tab1" class="tabcontent">
+      <h3>Tab 1 Content</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div>
+    <div id="Tab2" class="tabcontent">
+      <h3>Tab 2 Content</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div> -->
+    <!-- tab -->
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <div className="App" id="wrapper">
+      <header className="App-header">
+        <section id="header">
+          <header>
+            <span class="image avatar"><img src="%PUBLIC_URL%/images/avatar_new.jpg" className="dp" alt="dp" /></span>
+            <h1 id="logo"><a href="#">Shiraj Dawadi</a></h1>
+            <p>Software Developer/Développeur Logiciel. </p>
+          </header>
+          <nav id="nav">
+            <ul>
+              <li><a href="#one" class="active">About</a></li>
+              <li><a href="#two">Current Projects</a></li>
+              <li><a href="#three">Resume</a></li>
+            </ul>
+          </nav>
+          <footer>
+            <ul class="icons">
+              <li><a href="https://github.com/SD97" class="icon brands fa-github"><span class="label">Github</span></a></li>
+            </ul>
+          </footer>
+        </section>
+      </header>
+    </div>
+    <!-- Wrapper -->
+    <div className="App" id="wrapper">
+    <!-- Main -->
+        <div id="main">
+            <section id="one">
+              <div class="container">
+                <h3>About</h3>
+                <p>I like to start side projects and maybe sometimes finish them.<br />
+                  Using this site to experiment with AWS, front-end programming, and to write about my current projects!</p>
+              </div>
+            </section>
+          <!-- Two --> 
+            <section id="two">
+              <div class="container">
+                <h3>Current Projects</h3>
+                <p>Here's a few projects I'm working on, or have finished. Once each project is ready to show (not necessarily complete), there should be a link for more information</p>
+                <ul class="feature-icons">
+                  <li class="icon solid fa-code"> <a href="https://github.com/SD97/performanceTesting"> Performance testing of different Black Scholes implementations, across different languages.</a></li>
+                  <!-- <li class="icon solid fa-cubes">Setting up an application in AWS in a robust yet cheap manner </li>
+                  <li class="icon solid fa-book">Dissasembling an old laptop to repurpose as an extra monitor</li>
+                  <li class="icon solid fa-coffee">Analyzing my FB messenger usage throughout university</li> */} -->
+                  <li class="icon solid fa-bolt">Francais! J'apprend francais, a niveau B2</li>
+                  <!-- <li class="icon solid fa-users">Losing money investing long term into 3x leveraged tech ETFs</li> */} -->
+                </ul>
+              </div>
+            </section>
+          <!-- Three -->
+            <section id="three">
+              <div class="container">
+                <h3>Resume</h3>
+                <p>Here's a link to <a href="www.linkedin.com/in/shiraj-d-3294a9178"> my linkedin profile</a>. TLDR, graduated from 
+                  McGill University, now working as a software developer.</p>
+              </div>
+            </section>
+        </div>
+      <!-- Footer -->
+        <section id="footer">
+          <div class="container">
+            <ul class="copyright">
+              <li>&copy; Shiraj Dawadi 2023. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>, modified to work with react</li>
+            </ul>
+          </div>
+        </section>
+    </div>
+  </body>
+</html>
